@@ -1,0 +1,123 @@
+header {
+  width:100%;
+  height:100%;
+  text-align:center;
+  background-color:#5666D1;
+  margin-right: 0!important;
+  margin-top: 0!important;
+  padding-left:50px;
+  }
+
+
+.Vybranse{
+  text-align:center;
+  color:#F2B157;
+  font-family: 'MuseoModerno', cursive;
+  margin-top:0;
+  padding-right:120px;
+}
+
+.Color-Therapy{
+    padding-right:120px;
+  font-family:'MuseoModerno', cursive;
+  color:#ab260c;
+}
+
+.logo {
+  padding-left:95px;
+  height:150px;
+  
+}
+
+/* The sidebar menu */
+.sidenav {
+  clear:both;
+  height: 100%;/* Full-height: remove this if you want "auto" height */
+  width: 120px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #DE94EB; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  padding-right: 25px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+ font-family: 'Kumbh Sans', sans-serif;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  text-align:left;
+  margin-left: 150px; 
+  padding: 0px 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.pagetext{
+  padding:15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.booktoday {
+  float:down;
+  border-radius: 25px;
+  background: #5666D1;
+  padding: 25px;
+  width: 250;
+  height: 50px;
+  color:white;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+body {
+  padding:0; 
+  margin:0;
+  background-color:white;
+}
+
+footer {
+  padding-bottom:100px;
+  min-width:100%;
+  max-width:100%;
+  position:sticky;
+  padding:25px;
+  background-color:#68DE50;
+}
+
+.footertext {
+  
+  text-align:center;
+  padding:15px 45px 15px 155px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.contact-desc{
+    padding-right:120px;
+  font-family:'MuseoModerno', cursive;
+  color:#ab260c;
+}
+
